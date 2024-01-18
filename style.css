@@ -1,4 +1,4 @@
-/* **************************************************** Geral ******************************************************** */
+/* ****************** Geral ******************** */
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,7 @@ a {
   text-decoration: none;
 }
 
-/* ****************************************************** fontes ****************************************************** */
+/* ****************** fontes ****************** */
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
 :root {
@@ -31,7 +31,7 @@ a {
   src: url("Montserrat-Regular.ttf");
 }
 
-/* ****************************************************** Seção 1 ****************************************************** */
+/* ****************** Seção 1 ****************** */
 body {
   display: flex;
   flex-direction: column;
@@ -52,7 +52,9 @@ body {
   border-radius: 100%;
   width: 310%;
   height: 566.023%;
-  left: -103%;
+  margin-left: -100%;
+  transform: rotate(4DEG);
+  /* left: -103%; */
   /* left: -495px; */
   top: 70%;
   /* z-index: 1; */
@@ -81,24 +83,36 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
-.logo_img {
+.borda {
   width: 80%;
   height: 80%;
   border-radius: 100%;
   border: solid 18px #fff;
   box-shadow: black 0px 8px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.logo_img {
+  width: 140%;
+  height: 140%;
+  border-radius: 100%;
+  box-shadow: black 0px 8px 20px;
   left: 50%;
   top: -500px;
 }
 
-/* ****************************************************** Seção 2 ****************************************************** */
+/* ****************** Seção 2 ****************** */
 .secao_header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 5%;
+  margin-top: 1%;
   z-index: 1;
 }
 
@@ -123,7 +137,7 @@ body {
   white-space: pre-line;
 }
 
-/* ****************************************************** Seção 3 ****************************************************** */
+/* ****************** Seção 3 ****************** */
 .secao_main {
   display: flex;
   flex-direction: column;
@@ -181,7 +195,7 @@ body {
   font-family: "Montserrat";
 }
 
-/* ****************************************************** Seção 4 ****************************************************** */
+/* ****************** Seção 4 ****************** */
 .secao_footer {
   display: flex;
   flex-direction: column;
@@ -230,7 +244,7 @@ body {
   font-family: "Montserrat-Bold";
 }
 
-/* ****************************************************** Media Querry ****************************************************** */
+/* ****************** Media Querry ****************** */
 @media screen and (max-width: 390px) {
   .fundo {
     width: 100%;
@@ -247,21 +261,27 @@ body {
   .logo {
     /* top: 40%;
     left: 38%; */
-    width: 17.995%;
-    height: 39.94%;
+    /* margin-left: 41%; */
     background-color: #fff;
     z-index: 1;
-    border: solid #fff 10px;
+    border: solid #fff 5px;
   }
 
-  .logo_img {
+  .borda {
     width: 80%;
     height: 80%;
     border: solid 4px #fff;
     box-shadow: black 0px 2px 4px;
+    overflow: hidden;
   }
 
-  /* .secao_header {} */
+  .logo_img {
+    box-shadow: black 0px 2px 4px;
+  }
+
+  .secao_header {
+    margin-top: -2%;
+  }
 
   .texto1 {
     font-size: 1em;
@@ -279,7 +299,7 @@ body {
   }
 
   .texto3 {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   .container_cards {
@@ -377,23 +397,22 @@ body {
   .logo {
     /* top: 45%;
     left: 41%; */
-    margin-top: -25%;
-    margin-left: 41%;
-    width: 16.796%;
-    height: 37.825%;
     background-color: #fff;
     z-index: 1;
-    border: solid #fff 10px;
+    border: solid #fff 5px;
   }
 
-  .logo_img {
+  .borda {
     width: 80%;
     height: 80%;
     border: solid 4px #fff;
     box-shadow: black 0px 2px 4px;
+    overflow: hidden;
   }
 
-  /* .secao_header {} */
+  /* .logo_img {}
+
+  .secao_header {} */
 
   .texto1 {
     font-size: 1em;
@@ -511,34 +530,34 @@ body {
   .logo {
     /* top: 48%;
     left: 41%; */
-    margin-top: -25%;
-    width: 100px;
-    height: 100px;
     background-color: #fff;
     z-index: 1;
-    border: solid #fff 15px;
+    border: solid #fff 0px;
   }
 
-  .logo_img {
+  .borda {
     width: 80%;
     height: 80%;
-    border: solid 5px #fff;
+    border: solid 4px #fff;
     box-shadow: black 0px 2px 4px;
+    overflow: hidden;
   }
 
+  /* .logo_img {} */
+
   .secao_header {
-    margin-top: 5%;
+    margin-top: 11%;
   }
 
   .texto1 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: -10%;
   }
 
   .texto2 {
     font-size: 2em;
     max-width: 600px;
-    margin-top: -1%;
+    margin-top: -3%;
   }
 
   .secao_main {
@@ -546,7 +565,7 @@ body {
   }
 
   .texto3 {
-    font-size: 2.2em;
+    font-size: 1.5em;
   }
 
   .container_cards {
@@ -646,19 +665,20 @@ body {
   .logo {
     /* top: 46%;
     left: 40%; */
-    width: 19.532%;
-    height: 43.343%;
     background-color: #fff;
     z-index: 1;
-    border: solid #fff 15px;
+    border: solid #fff 0px;
   }
 
-  .logo_img {
+  .borda {
     width: 80%;
     height: 80%;
-    border: solid 5px #fff;
+    border: solid 4px #fff;
     box-shadow: black 0px 2px 4px;
+    overflow: hidden;
   }
+
+  /* .logo_img {} */
 
   .secao_header {
     margin-top: 8%;
@@ -780,20 +800,20 @@ body {
   .logo {
     /* top: 40%;
     left: 37%; */
-    margin-left: 38%;
-    width: 20.162%;
-    height: 44.742%;
     background-color: #fff;
     z-index: 1;
-    border: solid #fff 30px;
+    border: solid #fff 0px;
   }
 
-  .logo_img {
+  .borda {
     width: 80%;
     height: 80%;
-    border: solid 10px #fff;
+    border: solid 4px #fff;
     box-shadow: black 0px 2px 4px;
+    overflow: hidden;
   }
+
+  /* .logo_img {} */
 
   .secao_header {
     margin-top: 10%;
@@ -917,20 +937,20 @@ body {
   .logo {
     /* top: 46%;
     left: 42%; */
-    margin-left: 38%;
-    width: 20.834%;
-    height: 46.234%;
     background-color: #fff;
     z-index: 1;
-    border: solid #fff 30px;
+    border: solid #fff 0px;
   }
 
-  .logo_img {
+  .borda {
     width: 80%;
     height: 80%;
-    border: solid 10px #fff;
+    border: solid 15px #fff;
     box-shadow: black 0px 2px 4px;
+    overflow: hidden;
   }
+
+  /* .logo_img {} */
 
   .secao_header {
     margin-top: 10%;
