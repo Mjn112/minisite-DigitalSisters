@@ -375,8 +375,8 @@ body {
 
   .card {
     padding: 10px;
-    width: 95px;
-    height: 40px;
+    width: 105px;
+    height: 60px;
     color: white;
   }
 
@@ -401,7 +401,7 @@ body {
 
 
   .texto_card2 {
-    font-size: 4px;
+    font-size: 7px;
     margin-top: 15px;
   }
 
@@ -415,7 +415,7 @@ body {
 
 
   .texto_card2Insta {
-    font-size: 4px;
+    font-size: 6px;
     margin-top: 15px;
   }
 
