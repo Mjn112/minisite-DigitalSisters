@@ -453,6 +453,7 @@ body {
     font-size: 1em;
     white-space: pre-line;
     margin-left: 10px;
+    margin-top: -1%;
   }
 
 
@@ -539,19 +540,20 @@ body {
 
   .texto3 {
     font-size: 0.9em;
+    margin-top: 5%;
   }
 
 
   .container_cards {
-    gap: 15px;
-    margin-top: -10px;
+    gap: 10px;
+    margin-top: -5px;
   }
 
 
   .card {
     padding: 10px;
-    width: 95px;
-    height: 45px;
+    width: 100px;
+    height: 50px;
     color: white;
   }
 
@@ -568,7 +570,7 @@ body {
 
   .texto_card1 {
     display: flex;
-    font-size: 0.4em;
+    font-size: 0.48em;
     margin-bottom: 5px;
     margin-top: -34px;
     margin-left: 25px;
@@ -576,7 +578,7 @@ body {
 
 
   .texto_card2 {
-    font-size: 4px;
+    font-size: 6.3px;
     margin-top: 15px;
   }
 
@@ -590,7 +592,7 @@ body {
 
 
   .texto_card2Insta {
-    font-size: 4px;
+    font-size: 5.5px;
     margin-top: 15px;
   }
 
@@ -608,8 +610,8 @@ body {
 
 
   .btn {
-    width: 180px;
-    height: 40px;
+    width: 200px;
+    height: 50px;
     padding: 0px 0px 0px 20px;
     border-radius: 15px;
     margin: 00px;
@@ -617,15 +619,15 @@ body {
 
 
   .btn_texto1 {
-    font-size: 0.5em;
+    font-size: 0.6em;
     white-space: pre-line;
     margin-left: 10px;
-    margin-bottom: 2px;
+    margin-bottom: -2px;
   }
 
 
   .btn_texto2 {
-    font-size: 1em;
+    font-size: 1.1em;
     white-space: pre-line;
     margin-left: 10px;
     margin-bottom: -5px;
@@ -639,10 +641,11 @@ body {
 
 
   .btn_texto_alt2 {
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 0.9;
     margin-left: 10px;
-    margin-bottom: -4px;
+    white-space: pre-line;
+    margin-bottom: -2px;
   }
 }
 
@@ -716,19 +719,20 @@ body {
 
   .texto3 {
     font-size: 1.1em;
+    margin-top: 3%;
   }
 
 
   .container_cards {
     gap: 10px;
-    margin-top: -10px;
+    margin-top: -0px;
   }
 
 
   .card {
     padding: 10px;
     width: 150px;
-    height: 60px;
+    height: 70px;
     color: white;
   }
 
@@ -753,7 +757,7 @@ body {
 
 
   .texto_card2 {
-    font-size: 6.5px;
+    font-size: 8px;
     margin-top: 15px;
   }
 
@@ -785,8 +789,8 @@ body {
 
 
   .btn {
-    width: 180px;
-    height: 40px;
+    width: 240px;
+    height: 60px;
     padding: 0px 0px 0px 20px;
     border-radius: 15px;
     margin: 00px;
@@ -794,15 +798,15 @@ body {
 
 
   .btn_texto1 {
-    font-size: 0.5em;
+    font-size: 0.7em;
     white-space: pre-line;
     margin-left: 10px;
-    margin-bottom: 2px;
+    margin-bottom: -1px;
   }
 
 
   .btn_texto2 {
-    font-size: 1em;
+    font-size: 1.5em;
     white-space: pre-line;
     margin-left: 10px;
     margin-bottom: -5px;
@@ -810,16 +814,17 @@ body {
 
 
   .btn_texto_alt1 {
-    font-size: 0.4em;
+    font-size: 0.5em;
     margin-left: 10px;
   }
 
 
   .btn_texto_alt2 {
-    font-size: 0.9em;
+    font-size: 1.3em;
     line-height: 0.9;
     margin-left: 10px;
     margin-bottom: -4px;
+    white-space: pre-line;
   }
 }
 
