@@ -4,16 +4,20 @@
   padding: 0;
 }
 
+
 a {
   text-decoration: none;
 }
 
+
 /* ****************** fontes ****************** */
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
 
 :root {
   --fonte1: 'Montserrat 900', sans-serif;
 } */
+
 
 @font-face {
   font-family: "Montserrat-bold";
@@ -21,15 +25,18 @@ a {
   font-style: normal;
 }
 
+
 @font-face {
   font-family: "Montserrat-black";
   src: url("Montserrat-Black.ttf");
 }
 
+
 @font-face {
   font-family: "Montserrat-regular";
   src: url("Montserrat-Regular.ttf");
 }
+
 
 /* ****************** Seção 1 ****************** */
 body {
@@ -38,12 +45,14 @@ body {
   align-items: center;
 }
 
+
 .fundo {
   width: 99.3vw;
   max-width: 100%;
   position: relative;
   overflow: hidden;
 }
+
 
 .fundo::after {
   content: "";
@@ -53,12 +62,13 @@ body {
   width: 310%;
   height: 566.023%;
   margin-left: -100%;
-  transform: rotate(4DEG);
+  transform: rotate(4deg);
   /* left: -103%; */
   /* left: -495px; */
   top: 70%;
   /* z-index: 1; */
 }
+
 
 .imgFundo {
   min-width: 100%;
@@ -67,6 +77,7 @@ body {
   margin: 0 auto;
   z-index: -1;
 }
+
 
 .logo {
   z-index: 2;
@@ -86,6 +97,7 @@ body {
   overflow: hidden;
 }
 
+
 .borda {
   width: 80%;
   height: 80%;
@@ -98,6 +110,7 @@ body {
   overflow: hidden;
 }
 
+
 .logo_img {
   width: 140%;
   height: 140%;
@@ -107,6 +120,7 @@ body {
   top: -500px;
 }
 
+
 /* ****************** Seção 2 ****************** */
 .secao_header {
   display: flex;
@@ -115,6 +129,7 @@ body {
   margin-top: 1%;
   z-index: 1;
 }
+
 
 .texto1 {
   text-align: center;
@@ -126,16 +141,21 @@ body {
   white-space: pre-line;
 }
 
+
 .texto2 {
   text-align: center;
   margin: 0px;
   font-size: 3em;
-  font-weight: 1px;
+  line-height: 0.8;
   color: #664a9f;
-  max-width: 700px;
-  font-family: "Montserrat";
+  font-family: "Montserrat-regular";
   white-space: pre-line;
 }
+
+.texto2 span {
+  margin-left: 15px;
+}
+
 
 /* ****************** Seção 3 ****************** */
 .secao_main {
@@ -146,11 +166,13 @@ body {
   margin: 100px 0px 50px 0px;
 }
 
+
 .texto3 {
   font-size: 2.5em;
   color: #664a9f;
-  font-family: "Montserrat";
+  font-family: "Montserrat-regular";
 }
+
 
 .container_cards {
   display: flex;
@@ -160,6 +182,7 @@ body {
   justify-content: center;
 }
 
+
 .card {
   background-color: #664a9f;
   padding: 20px;
@@ -168,32 +191,43 @@ body {
   color: white;
 }
 
+
 .icon_card {
   width: 100px;
   height: 100px;
   position: relative;
   top: -20px;
+  left: -25px;
 }
+
 
 .texto_card1 {
   font-size: 1.5em;
   font-weight: bold;
   margin-bottom: 10px;
-  margin-top: -20px;
-  font-family: "Montserrat-Black";
+  margin-top: -31px;
+  font-family: "Montserrat-bold";
 }
+
 
 .texto_card2 {
-  font-family: "Montserrat";
+  font-family: "Montserrat-regular";
 }
+
 
 .texto_card1Insta {
-  font-family: "Montserrat-Black";
+  font-family: "Montserrat-bold";
+  font-size: 1.5em;
+  margin-top: -10%;
 }
 
+
 .texto_card2Insta {
-  font-family: "Montserrat";
+  font-family: "Montserrat-regular";
+  font-size: 1em;
+  margin-top: 3%;
 }
+
 
 /* ****************** Seção 4 ****************** */
 .secao_footer {
@@ -205,20 +239,21 @@ body {
   margin-bottom: 100px;
 }
 
+
 .texto4 {
   color: #664a9f;
   font-size: 2.5em;
-  max-width: 700px;
   text-align: center;
   margin-bottom: 40px;
-  font-family: "Montserrat";
+  font-family: "Montserrat-regular";
   white-space: pre-line;
 }
+
 
 .btn {
   background-color: #664a9f;
   color: white;
-  width: 300px;
+  width: 350px;
   height: 90px;
   display: flex;
   flex-direction: column;
@@ -229,26 +264,42 @@ body {
   margin: 10px;
 }
 
+
 .btn_texto1 {
   font-size: 1em;
-  font-family: "Montserrat";
+  margin-left: 30px;
+  line-height: 0.5;
+  font-family: "Montserrat-regular";
 }
+
 
 .btn_texto2 {
   font-size: 1.8em;
-  font-family: "Montserrat-Bold";
+  margin-left: 30px;
+  font-family: "Montserrat-bold";
 }
 
 .btn_texto_alt1 {
-  line-height: 24px;
-  font-family: "Montserrat-Bold";
+  font-size: 1em;
+  margin-left: 30px;
+  line-height: 0.8;
+  font-family: "Montserrat-regular";
 }
+
+.btn_texto_alt2 {
+  line-height: 24px;
+  font-size: 1.8em;
+  margin-left: 30px;
+  font-family: "Montserrat-bold";
+}
+
 
 /* ****************** Media Querry ****************** */
 @media screen and (max-width: 390px) {
   .fundo {
     width: 100%;
   }
+
 
   .fundo img {
     width: 100vw;
@@ -257,6 +308,7 @@ body {
     display: block;
     margin: 0 auto;
   }
+
 
   .logo {
     /* top: 40%;
@@ -267,6 +319,7 @@ body {
     border: solid #fff 5px;
   }
 
+
   .borda {
     width: 80%;
     height: 80%;
@@ -275,43 +328,58 @@ body {
     overflow: hidden;
   }
 
+
   .logo_img {
     box-shadow: black 0px 2px 4px;
   }
+
 
   .secao_header {
     margin-top: -2%;
   }
 
+
   .texto1 {
-    font-size: 1em;
+    font-size: 0.9em;
     margin-top: 10%;
   }
 
+
   .texto2 {
     font-size: 1em;
-    max-width: 300px;
-    margin-top: -6%;
+    line-height: 0.8;
+    /* margin-top: -4%; */
+    margin-top: -2%;
   }
+
+  .texto2 span {
+    margin-left: 2%;
+  }
+
 
   .secao_main {
     margin: 20px 0px 50px 0px;
   }
 
+
   .texto3 {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
+
   .container_cards {
-    gap: 10px;
+    gap: 5px;
+    margin-top: -10px;
   }
+
 
   .card {
     padding: 10px;
-    width: 90px;
-    height: 60px;
+    width: 95px;
+    height: 40px;
     color: white;
   }
+
 
   .icon_card {
     display: block;
@@ -319,73 +387,95 @@ body {
     height: 40px;
     position: relative;
     top: -10px;
-    margin-left: -16px;
+    margin-left: 15%;
   }
+
 
   .texto_card1 {
     display: flex;
     font-size: 0.4em;
     margin-bottom: 5px;
     margin-top: -34px;
-    margin-left: 20px;
+    margin-left: 25px;
   }
 
+
   .texto_card2 {
-    font-size: 0.5em;
+    font-size: 4px;
     margin-top: 15px;
   }
+
 
   .texto_card1Insta {
     font-size: 0.4em;
     margin-bottom: 10px;
     margin-top: -34px;
-    margin-left: 18px;
+    margin-left: 25px;
   }
 
+
   .texto_card2Insta {
-    font-size: 7.4px;
+    font-size: 4px;
     margin-top: 15px;
   }
+
 
   .secao_footer {
     margin-top: -20px;
     margin-bottom: 100px;
   }
 
+
   .texto4 {
-    font-size: 1em;
+    font-size: 0.8em;
     margin-bottom: 10px;
   }
 
+
   .btn {
-    width: 200px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     padding: 0px 0px 0px 20px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 00px;
   }
+
 
   .btn_texto1 {
     font-size: 0.5em;
     white-space: pre-line;
+    margin-left: 10px;
+    margin-bottom: 2px;
   }
+
 
   .btn_texto2 {
     font-size: 1em;
     white-space: pre-line;
+    margin-left: 10px;
   }
 
+
   .btn_texto_alt1 {
+    font-size: 0.4em;
+    margin-left: 10px;
+  }
+
+
+  .btn_texto_alt2 {
     font-size: 0.9em;
-    line-height: 13px;
+    line-height: 0.9;
+    margin-left: 10px;
   }
 }
+
 
 @media screen and (max-width: 600px) and (min-width: 390px) {
   .fundo {
     width: 100%;
   }
 
+
   .fundo img {
     width: 100vw;
     max-width: 100%;
@@ -394,13 +484,16 @@ body {
     margin: 0 auto;
   }
 
+
   .logo {
-    /* top: 45%;
-    left: 41%; */
+    /* top: 40%;
+    left: 38%; */
+    /* margin-left: 41%; */
     background-color: #fff;
     z-index: 1;
     border: solid #fff 5px;
   }
+
 
   .borda {
     width: 80%;
@@ -410,40 +503,58 @@ body {
     overflow: hidden;
   }
 
-  /* .logo_img {}
 
-  .secao_header {} */
+  .logo_img {
+    box-shadow: black 0px 2px 4px;
+  }
+
+
+  .secao_header {
+    margin-top: -2%;
+  }
+
 
   .texto1 {
-    font-size: 1em;
+    font-size: 0.9em;
     margin-top: 10%;
   }
 
+
   .texto2 {
     font-size: 1em;
-    max-width: 300px;
-    margin-top: -6%;
+    line-height: 0.8;
+    /* margin-top: -4%; */
+    margin-top: -2%;
   }
+
+  .texto2 span {
+    margin-left: 2%;
+  }
+
 
   .secao_main {
     margin: 20px 0px 50px 0px;
   }
 
+
   .texto3 {
-    font-size: 1.3em;
+    font-size: 0.9em;
   }
 
+
   .container_cards {
-    max-width: 500px;
-    gap: 20px;
+    gap: 15px;
+    margin-top: -10px;
   }
+
 
   .card {
     padding: 10px;
-    width: 120px;
-    height: 70px;
+    width: 95px;
+    height: 45px;
     color: white;
   }
+
 
   .icon_card {
     display: block;
@@ -451,74 +562,97 @@ body {
     height: 40px;
     position: relative;
     top: -10px;
-    margin-left: -14px;
+    margin-left: 15%;
   }
+
 
   .texto_card1 {
     display: flex;
-    font-size: 0.6em;
+    font-size: 0.4em;
     margin-bottom: 5px;
     margin-top: -34px;
     margin-left: 25px;
   }
 
+
   .texto_card2 {
-    font-size: 0.6em;
+    font-size: 4px;
     margin-top: 15px;
   }
 
+
   .texto_card1Insta {
-    font-size: 0.5em;
+    font-size: 0.4em;
     margin-bottom: 10px;
     margin-top: -34px;
     margin-left: 25px;
   }
 
+
   .texto_card2Insta {
-    font-size: 9px;
-    margin-top: 10px;
-    margin-left: 10px;
+    font-size: 4px;
+    margin-top: 15px;
   }
+
 
   .secao_footer {
     margin-top: -20px;
     margin-bottom: 100px;
   }
 
+
   .texto4 {
-    font-size: 1em;
+    font-size: 0.8em;
     margin-bottom: 10px;
   }
 
+
   .btn {
-    width: 200px;
-    height: 50px;
+    width: 180px;
+    height: 40px;
     padding: 0px 0px 0px 20px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 00px;
   }
+
 
   .btn_texto1 {
     font-size: 0.5em;
     white-space: pre-line;
+    margin-left: 10px;
+    margin-bottom: 2px;
   }
+
 
   .btn_texto2 {
     font-size: 1em;
     white-space: pre-line;
+    margin-left: 10px;
+    margin-bottom: -5px;
   }
 
+
   .btn_texto_alt1 {
+    font-size: 0.4em;
+    margin-left: 10px;
+  }
+
+
+  .btn_texto_alt2 {
     font-size: 0.9em;
-    line-height: 13px;
+    line-height: 0.9;
+    margin-left: 10px;
+    margin-bottom: -4px;
   }
 }
+
 
 @media (min-width: 600px) and (max-width: 768px) {
   .fundo {
     width: 100%;
   }
 
+
   .fundo img {
     width: 100vw;
     max-width: 100%;
@@ -527,13 +661,16 @@ body {
     margin: 0 auto;
   }
 
+
   .logo {
-    /* top: 48%;
-    left: 41%; */
+    /* top: 40%;
+    left: 38%; */
+    /* margin-left: 41%; */
     background-color: #fff;
     z-index: 1;
-    border: solid #fff 0px;
+    border: solid #fff 5px;
   }
+
 
   .borda {
     width: 80%;
@@ -543,117 +680,156 @@ body {
     overflow: hidden;
   }
 
-  /* .logo_img {} */
+
+  .logo_img {
+    box-shadow: black 0px 2px 4px;
+  }
+
 
   .secao_header {
-    margin-top: 11%;
+    margin-top: -2%;
   }
+
 
   .texto1 {
-    font-size: 1.5em;
-    margin-top: -10%;
+    font-size: 1em;
+    margin-top: 10%;
   }
+
 
   .texto2 {
-    font-size: 2em;
-    max-width: 600px;
-    margin-top: -3%;
+    font-size: 1.2em;
+    line-height: 0.9;
+    /* margin-top: -4%; */
+    margin-top: -2%;
   }
+
+  .texto2 span {
+    margin-left: 2%;
+  }
+
 
   .secao_main {
-    margin: 50px 0px 50px 0px;
+    margin: 20px 0px 50px 0px;
   }
+
 
   .texto3 {
-    font-size: 1.5em;
+    font-size: 1.1em;
   }
 
+
   .container_cards {
-    max-width: 700px;
-    gap: 20px;
+    gap: 10px;
+    margin-top: -10px;
   }
+
 
   .card {
     padding: 10px;
-    width: 180px;
-    height: 110px;
+    width: 150px;
+    height: 60px;
     color: white;
   }
 
+
   .icon_card {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     position: relative;
     top: -10px;
-    margin-left: -14px;
+    margin-left: 10%;
   }
+
 
   .texto_card1 {
     display: flex;
-    font-size: 0.9em;
+    font-size: 0.8em;
     margin-bottom: 5px;
     margin-top: -34px;
-    margin-left: 40px;
+    margin-left: 25px;
   }
 
+
   .texto_card2 {
-    font-size: 0.9em;
+    font-size: 6.5px;
     margin-top: 15px;
   }
 
+
   .texto_card1Insta {
-    font-size: 0.8em;
+    font-size: 0.7em;
     margin-bottom: 10px;
-    margin-top: -40px;
-    margin-left: 30px;
+    margin-top: -34px;
+    margin-left: 25px;
   }
+
 
   .texto_card2Insta {
-    font-size: 12px;
-    margin-top: 17px;
-    margin-left: 10px;
+    font-size: 6.5px;
+    margin-top: 15px;
   }
 
+
   .secao_footer {
-    margin-top: -20px;
+    margin-top: -10px;
     margin-bottom: 100px;
   }
 
+
   .texto4 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
   }
 
+
   .btn {
-    width: 210px;
-    height: 70px;
+    width: 180px;
+    height: 40px;
     padding: 0px 0px 0px 20px;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 00px;
   }
 
+
   .btn_texto1 {
-    font-size: 0.9em;
+    font-size: 0.5em;
     white-space: pre-line;
+    margin-left: 10px;
+    margin-bottom: 2px;
   }
+
 
   .btn_texto2 {
-    font-size: 1.5em;
+    font-size: 1em;
     white-space: pre-line;
+    margin-left: 10px;
+    margin-bottom: -5px;
   }
 
+
   .btn_texto_alt1 {
-    font-size: 1.2em;
-    line-height: 18px;
+    font-size: 0.4em;
+    margin-left: 10px;
+  }
+
+
+  .btn_texto_alt2 {
+    font-size: 0.9em;
+    line-height: 0.9;
+    margin-left: 10px;
+    margin-bottom: -4px;
   }
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .fundo {
     width: 100%;
   }
 
+
   .fundo img {
     width: 100vw;
     max-width: 100%;
@@ -662,13 +838,16 @@ body {
     margin: 0 auto;
   }
 
+
   .logo {
-    /* top: 46%;
-    left: 40%; */
+    /* top: 40%;
+    left: 38%; */
+    /* margin-left: 41%; */
     background-color: #fff;
     z-index: 1;
-    border: solid #fff 0px;
+    border: solid #fff 5px;
   }
+
 
   .borda {
     width: 80%;
@@ -678,117 +857,157 @@ body {
     overflow: hidden;
   }
 
-  /* .logo_img {} */
+
+  .logo_img {
+    box-shadow: black 0px 2px 4px;
+  }
+
 
   .secao_header {
-    margin-top: 8%;
-  }
-
-  .texto1 {
-    font-size: 2.5em;
-    margin-top: -10%;
-  }
-
-  .texto2 {
-    font-size: 2.5em;
-    max-width: 1000px;
     margin-top: -2%;
   }
 
-  .secao_main {
-    margin: 50px 0px 50px 0px;
+
+  .texto1 {
+    font-size: 1.5em;
+    margin-top: 10%;
   }
+
+
+  .texto2 {
+    font-size: 1.7em;
+    line-height: 0.9;
+    /* margin-top: -4%; */
+    margin-top: -2%;
+  }
+
+  .texto2 span {
+    margin-left: 2%;
+  }
+
+
+  .secao_main {
+    margin: 20px 0px 50px 0px;
+  }
+
 
   .texto3 {
-    font-size: 2.5em;
+    font-size: 1.6em;
   }
 
+
   .container_cards {
-    max-width: 900px;
-    gap: 20px;
+    gap: 10px;
+    margin-top: -10px;
   }
+
 
   .card {
     padding: 10px;
-    width: 240px;
-    height: 130px;
+    width: 200px;
+    height: 80px;
     color: white;
   }
 
+
   .icon_card {
     display: block;
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     position: relative;
-    top: -5px;
-    margin-left: -15px;
+    top: -10px;
+    margin-left: 10%;
   }
+
 
   .texto_card1 {
     display: flex;
-    font-size: 1.1em;
+    font-size: 1em;
     margin-bottom: 5px;
-    margin-top: -50px;
-    margin-left: 50px;
+    margin-top: -35px;
+    margin-left: 30px;
   }
+
 
   .texto_card2 {
-    font-size: 1.1em;
-    margin-top: 20px;
+    font-size: 9px;
+    margin-top: 15px;
   }
+
 
   .texto_card1Insta {
-    font-size: 1em;
+    font-size: 0.9em;
     margin-bottom: 10px;
-    margin-top: -50px;
-    margin-left: 50px;
+    margin-top: -36px;
+    margin-left: 30px;
   }
+
 
   .texto_card2Insta {
-    font-size: 16px;
-    margin-top: 17px;
-    margin-left: 10px;
+    font-size: 10px;
+    margin-top: 15px;
   }
 
+
   .secao_footer {
-    margin-top: -20px;
+    margin-top: -10px;
     margin-bottom: 100px;
   }
 
+
   .texto4 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
+    font-size: 1.8em;
+    margin-bottom: 10px;
   }
+
 
   .btn {
-    width: 300px;
-    height: 80px;
+    width: 260px;
+    height: 60px;
     padding: 0px 0px 0px 20px;
-    border-radius: 20px;
-    margin: 5px;
+    border-radius: 15px;
+    margin: 00px;
   }
+
 
   .btn_texto1 {
-    font-size: 0.9em;
+    font-size: 0.8em;
     white-space: pre-line;
+    margin-left: 10px;
+    margin-bottom: 2px;
   }
+
 
   .btn_texto2 {
-    font-size: 2em;
+    font-size: 1.3em;
     white-space: pre-line;
+    margin-left: 10px;
+    margin-bottom: -5px;
   }
 
+
   .btn_texto_alt1 {
-    font-size: 1.8em;
-    line-height: 28px;
+    font-size: 0.6em;
+    margin-left: 10px;
+  }
+
+
+  .btn_texto_alt2 {
+    font-size: 1.3em;
+    line-height: 0.9;
+    margin-left: 10px;
+    margin-bottom: -4px;
+    white-space: pre-line;
   }
 }
+
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   .fundo {
     width: 100%;
   }
 
+
   .fundo img {
     width: 100vw;
     max-width: 100%;
@@ -797,13 +1016,16 @@ body {
     margin: 0 auto;
   }
 
+
   .logo {
     /* top: 40%;
-    left: 37%; */
+    left: 38%; */
+    /* margin-left: 41%; */
     background-color: #fff;
     z-index: 1;
-    border: solid #fff 0px;
+    border: solid #fff 5px;
   }
+
 
   .borda {
     width: 80%;
@@ -813,118 +1035,159 @@ body {
     overflow: hidden;
   }
 
-  /* .logo_img {} */
+
+  .logo_img {
+    box-shadow: black 0px 2px 4px;
+  }
+
 
   .secao_header {
-    margin-top: 10%;
-  }
-
-  .texto1 {
-    font-size: 2.8em;
-    margin-top: -10%;
-  }
-
-  .texto2 {
-    font-size: 2.8em;
-    max-width: 1000px;
     margin-top: -2%;
   }
 
-  .secao_main {
-    margin: 50px 0px 50px 0px;
+
+  .texto1 {
+    font-size: 1.8em;
+    margin-top: 10%;
   }
+
+
+  .texto2 {
+    font-size: 2em;
+    line-height: 0.9;
+    /* margin-top: -4%; */
+    margin-top: -0%;
+  }
+
+  .texto2 span {
+    margin-left: 2%;
+  }
+
+
+  .secao_main {
+    margin: 20px 0px 50px 0px;
+  }
+
 
   .texto3 {
-    font-size: 2.8em;
+    font-size: 1.7em;
+    margin-top: 40px;
   }
 
+
   .container_cards {
-    max-width: 1000px;
-    gap: 20px;
-    margin-bottom: 50px;
+    gap: 30px;
+    margin-top: -10px;
   }
+
 
   .card {
     padding: 10px;
-    width: 280px;
-    height: 160px;
+    width: 250px;
+    height: 100px;
     color: white;
   }
 
+
   .icon_card {
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     position: relative;
-    top: -5px;
-    margin-left: -15px;
+    top: -10px;
+    margin-left: 5%;
   }
+
 
   .texto_card1 {
     display: flex;
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin-bottom: 5px;
-    margin-top: -55px;
-    margin-left: 60px;
+    margin-top: -48px;
+    margin-left: 40px;
   }
 
+
   .texto_card2 {
-    font-size: 1.4em;
-    margin-top: 20px;
+    font-size: 11px;
+    margin-top: 15px;
   }
+
 
   .texto_card1Insta {
     font-size: 1.2em;
     margin-bottom: 10px;
-    margin-top: -55px;
-    margin-left: 60px;
+    margin-top: -51px;
+    margin-left: 38px;
   }
 
+
   .texto_card2Insta {
-    font-size: 20px;
-    margin-top: 17px;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+
+
+  .secao_footer {
+    margin-top: -10px;
+    margin-bottom: 100px;
+    gap: 20px;
+  }
+
+
+  .texto4 {
+    font-size: 2.1em;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+
+
+  .btn {
+    width: 300px;
+    height: 80px;
+    padding: 0px 0px 0px 20px;
+    border-radius: 30px;
+    margin: 00px;
+  }
+
+
+  .btn_texto1 {
+    font-size: 1em;
+    white-space: pre-line;
+    margin-left: 10px;
+    margin-bottom: 2px;
+  }
+
+
+  .btn_texto2 {
+    font-size: 1.8em;
+    white-space: pre-line;
+    margin-left: 10px;
+    margin-bottom: -5px;
+  }
+
+
+  .btn_texto_alt1 {
+    font-size: 0.9em;
     margin-left: 10px;
   }
 
-  .secao_footer {
-    margin-top: -5px;
-    margin-bottom: 100px;
-    max-width: 1000px;
-  }
 
-  .texto4 {
-    font-size: 2.7em;
-    margin-bottom: 30px;
-  }
-
-  .btn {
-    width: 340px;
-    height: 90px;
-    padding: 0px 0px 0px 20px;
-    border-radius: 20px;
-    margin: 5px;
-  }
-
-  .btn_texto1 {
-    font-size: 1.2em;
+  .btn_texto_alt2 {
+    font-size: 1.8em;
+    line-height: 0.9;
+    margin-left: 10px;
+    margin-bottom: -4px;
     white-space: pre-line;
-  }
-
-  .btn_texto2 {
-    font-size: 2.2em;
-    white-space: pre-line;
-  }
-
-  .btn_texto_alt1 {
-    font-size: 2em;
-    line-height: 28px;
   }
 }
+
 
 @media screen and (min-width: 1200px) and (max-width: 1920px) {
   .fundo {
     width: 100%;
   }
+
 
   .fundo img {
     width: 100vw;
@@ -934,126 +1197,168 @@ body {
     margin: 0 auto;
   }
 
+
   .logo {
-    /* top: 46%;
-    left: 42%; */
+    /* top: 40%;
+    left: 38%; */
+    /* margin-left: 41%; */
     background-color: #fff;
     z-index: 1;
-    border: solid #fff 0px;
+    border: solid #fff 5px;
   }
+
 
   .borda {
     width: 80%;
     height: 80%;
-    border: solid 15px #fff;
+    border: solid 4px #fff;
     box-shadow: black 0px 2px 4px;
     overflow: hidden;
   }
 
-  /* .logo_img {} */
+
+  .logo_img {
+    box-shadow: black 0px 2px 4px;
+  }
+
 
   .secao_header {
-    margin-top: 10%;
-  }
-
-  .texto1 {
-    font-size: 2.8em;
-    margin-top: -10%;
-  }
-
-  .texto2 {
-    font-size: 2.8em;
-    max-width: 1000px;
     margin-top: -2%;
   }
 
-  .secao_main {
-    margin: 50px 0px 50px 0px;
+
+  .texto1 {
+    font-size: 1.8em;
+    margin-top: 10%;
   }
+
+
+  .texto2 {
+    font-size: 2em;
+    line-height: 0.9;
+    /* margin-top: -4%; */
+    margin-top: -0%;
+  }
+
+  .texto2 span {
+    margin-left: 2%;
+  }
+
+
+  .secao_main {
+    margin: 20px 0px 50px 0px;
+  }
+
 
   .texto3 {
-    font-size: 2.8em;
+    font-size: 1.7em;
+    margin-top: 40px;
   }
 
+
   .container_cards {
-    max-width: 1000px;
-    gap: 20px;
-    margin-bottom: 50px;
+    gap: 30px;
+    margin-top: -10px;
   }
+
 
   .card {
     padding: 10px;
-    width: 280px;
-    height: 160px;
+    width: 300px;
+    height: 100px;
     color: white;
   }
 
+
   .icon_card {
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     position: relative;
-    top: -5px;
-    margin-left: -15px;
+    top: -10px;
+    margin-left: 5%;
   }
+
 
   .texto_card1 {
     display: flex;
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin-bottom: 5px;
-    margin-top: -55px;
-    margin-left: 60px;
+    margin-top: -48px;
+    margin-left: 40px;
   }
 
+
   .texto_card2 {
-    font-size: 1.4em;
-    margin-top: 20px;
+    font-size: 11px;
+    margin-top: 15px;
   }
+
 
   .texto_card1Insta {
     font-size: 1.2em;
     margin-bottom: 10px;
-    margin-top: -55px;
-    margin-left: 60px;
+    margin-top: -51px;
+    margin-left: 38px;
   }
 
+
   .texto_card2Insta {
-    font-size: 20px;
-    margin-top: 17px;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+
+
+  .secao_footer {
+    margin-top: -10px;
+    margin-bottom: 100px;
+    gap: 20px;
+  }
+
+
+  .texto4 {
+    font-size: 2.1em;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+
+
+  .btn {
+    width: 300px;
+    height: 80px;
+    padding: 0px 0px 0px 20px;
+    border-radius: 30px;
+    margin: 00px;
+  }
+
+
+  .btn_texto1 {
+    font-size: 1em;
+    white-space: pre-line;
+    margin-left: 10px;
+    margin-bottom: 2px;
+  }
+
+
+  .btn_texto2 {
+    font-size: 1.8em;
+    white-space: pre-line;
+    margin-left: 10px;
+    margin-bottom: -5px;
+  }
+
+
+  .btn_texto_alt1 {
+    font-size: 0.9em;
     margin-left: 10px;
   }
 
-  .secao_footer {
-    margin-top: -5px;
-    margin-bottom: 100px;
-    max-width: 1000px;
-  }
 
-  .texto4 {
-    font-size: 2.7em;
-    margin-bottom: 30px;
-  }
-
-  .btn {
-    width: 340px;
-    height: 90px;
-    padding: 0px 0px 0px 20px;
-    border-radius: 20px;
-    margin: 5px;
-  }
-
-  .btn_texto1 {
-    font-size: 1.2em;
+  .btn_texto_alt2 {
+    font-size: 1.8em;
+    line-height: 0.9;
+    margin-left: 10px;
+    margin-bottom: -4px;
     white-space: pre-line;
-  }
-
-  .btn_texto2 {
-    font-size: 2.2em;
-    white-space: pre-line;
-  }
-
-  .btn_texto_alt1 {
-    font-size: 2em;
-    line-height: 28px;
   }
 }
